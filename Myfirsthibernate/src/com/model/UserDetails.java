@@ -10,13 +10,13 @@ import javax.persistence.Table;
 public class UserDetails {
 @Id 
 
-	private int userid;
+	private integer userid;
 
 private String username;
-	public int getUserid() {
+	public integer getUserid() {
 		return userid;
 	}
-	public void setUserid(int userid) {
+	public void setUserid(integer userid) {
 		this.userid = userid;
 	}
 	public String getUsername() {
